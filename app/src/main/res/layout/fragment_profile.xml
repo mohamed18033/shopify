@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E1E1E1"
+    android:gravity="center"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#FFFFFF"
+
+        >
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="#CCCCCC"
+            android:contentDescription="Profile image"
+            android:elevation="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/no_profile_picture_icon" />
+
+        <TextView
+            android:id="@+id/fullNameTextBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:text="John Doe"
+            android:layout_below="@id/profile_image"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/emailTextBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:text="john.doe@example.com"
+            android:layout_below="@id/fullNameTextBox"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/phoneTextBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:text="(123) 456-7890"
+            android:layout_below="@id/emailTextBox"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/genderTextBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="20dp"
+            android:text="Gender: Male"
+            android:layout_below="@id/phoneTextBox"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

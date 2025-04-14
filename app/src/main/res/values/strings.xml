@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Shopify</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="order_items">
+        <item>x1 Item 1</item>
+        <item>x2 Item 2</item>
+        <item>x1 Item 3</item>
+    </string-array>
+    <string-array name="gates">
+        <item>Nasr City</item>
+        <item>New Cairo</item>
+        <item>Kourba</item>
+        <item>Shobra</item>
+        <item>Al-Haram</item>
+    </string-array>
+    <string-array name="times">
+        <item>Morning</item>
+        <item>Evening</item>
+    </string-array>
+    <string-array name="payment_methods">
+        <item>Cash On Delivery </item>
+    </string-array>
+</resources>
